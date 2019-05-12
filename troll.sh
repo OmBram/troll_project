@@ -190,11 +190,11 @@ echo "Loading.."
 load
 clear
 troll
-echo Selamat datang kak, Siapa nick kaka? Contok Otang #tulisan keluar
+echo Selamat datang kak, Siapa nick kaka?    (Contok Otang) #tulisan keluar
 read nick #membaca yang ditulis
 clear
 troll
-echo Selamat datang $nick ":)"
+echo Selamat datang $nick "Jomblo Ya Om:)"
 echo
 echo "Mulai troll project?"
 echo "y/n?"
