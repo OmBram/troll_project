@@ -14,49 +14,15 @@
 troll(){
     clear
     sleep 0.03
-    echo "         _ "
+    echo "         ___              ____ "
     sleep 0.03
-    echo "        /_)  _.-===-._ "
+    echo "        / _ \ _ __ ___   | __ ) _ __ __ _ _ __ ___ "
     sleep 0.03
-    echo "       /  .; '_-.'- .'.     _ "
+    echo "       | | | | '_ ` _ \  |  _ \| '__/ _` | '_ ` _ \ "
     sleep 0.03
-    echo "  __ _/  /.'\ ._  '. , \   (_\ "
+    echo "       | |_| | | | | | | | |_) | | | (_| | | | | | | "
     sleep 0.03
-    echo " /\_( \  |.'.-._'- .  '|     \ "
-    sleep 0.03
-    echo " |_)  /  |/'    ''--''\|     _\__ "
-    sleep 0.03
-    echo " \_)_|  /'  ._.   ._.  '\   / )(_\ "
-    sleep 0.03
-    echo " )/  (  \_      _      _/   \' (_| "
-    sleep 0.03
-    echo " /   /    \           /     _) (_/ "
-    sleep 0.03
-    echo " |   '',_ _'._'---'_.'_ _,.'    | \ "
-    sleep 0.03
-    echo " \    /  \ \  '''''  / / /     /   \ "
-    sleep 0.03
-    echo "  \_.'    \ \       / /  |   .' "
-    sleep 0.03
-    echo "   '--.,   \ \     / /  _;-'' "
-    sleep 0.03
-    echo "       '|   \ \   / /   | "
-    sleep 0.03
-    echo "       .;----'''''''----;. "
-    sleep 0.03
-    echo "      /(                 )\ "
-    sleep 0.03
-    echo "      \_''-------------''_/ "
-    sleep 0.03
-    echo "      | '';-----;-----;'' | "
-    sleep 0.03
-    echo "      | / : \ / : \ / : \ | "
-    sleep 0.03
-    echo "      |V.','.V.','.V.','.V| "
-    sleep 0.03
-    echo "      \'./_\.;./_\.;./_\.'/ "
-    sleep 0.03
-    echo "       ';..___________..;' "
+    echo "        \___/|_| |_| |_| |____/|_|  \__,_|_| |_| |_| "
     sleep 0.03
     echo " ============================="
     sleep 2
@@ -86,7 +52,7 @@ mulai (){
     if [ $lagi = "y" ]; then
             spam
     else
-            echo "Terimakasih sudah menggunakan Troll project"
+            echo "Terimakasih sudah menggunakan Troll project By Om Bram"
     fi
 }
 #spam
@@ -194,7 +160,7 @@ echo Selamat datang kak, Siapa nick kaka?    (Contok Otang) #tulisan keluar
 read nick #membaca yang ditulis
 clear
 troll
-echo Selamat datang $nick "Jomblo Ya Om:)"
+echo Selamat datang $nick Jombo Ya":)"
 echo
 echo "Mulai troll project?"
 echo "y/n?"
