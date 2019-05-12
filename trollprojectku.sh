@@ -1,12 +1,13 @@
 #!/bin/bash
 #///////////////////////////////////////////////////////////////////////////////
 #///////////////////////////////////////////////////////////////////////////////
-#////             ___              ____                                     ////
-#////            / _ \ _ __ ___   | __ ) _ __ __ _ _ __ ___                 ////
-#////           | | | | '_ ` _ \  |  _ \| '__/ _` | '_ ` _ \                ////
-#////           | |_| | | | | | | | |_) | | | (_| | | | | | |               ////
-#////            \___/|_| |_| |_| |____/|_|  \__,_|_| |_| |_|               ////                
-#////                                                                       ////                                            
+#////                       _            _  __                              ////
+#////                      | |          (_)/ _|                             ////
+#////                   ___| |_   _  ___ _| |_ ___ _ __                     ////
+#////                  |_  / | | | |/ __| |  _/ _ \ '__|                    ////
+#////                   / /| | |_| | (__| | ||  __/ |                       ////
+#////                  /___|_|\__,_|\___|_|_| \___|_|                       ////
+#////                                                                       ////
 #///////////////////////////////////////////////////////////////////////////////
 #///////////////////////////////////////////////////////////////////////////////
 #PERINGATAN : KESALAHAN ATAU KEJAHATAN ADALAH TANGGUNG JAWAB DARI PEMAKAI
@@ -14,15 +15,49 @@
 troll(){
     clear
     sleep 0.03
-    echo "         ___              ____ "
+    echo "         _ "
     sleep 0.03
-    echo "        / _ \ _ __ ___   | __ ) _ __ __ _ _ __ ___ "
+    echo "        /_)  _.-===-._ "
     sleep 0.03
-    echo "       | | | | '_ ` _ \  |  _ \| '__/ _` | '_ ` _ \ "
+    echo "       /  .; '_-.'- .'.     _ "
     sleep 0.03
-    echo "       | |_| | | | | | | | |_) | | | (_| | | | | | | "
+    echo "  __ _/  /.'\ ._  '. , \   (_\ "
     sleep 0.03
-    echo "        \___/|_| |_| |_| |____/|_|  \__,_|_| |_| |_| "
+    echo " /\_( \  |.'.-._'- .  '|     \ "
+    sleep 0.03
+    echo " |_)  /  |/'    ''--''\|     _\__ "
+    sleep 0.03
+    echo " \_)_|  /'  ._.   ._.  '\   / )(_\ "
+    sleep 0.03
+    echo " )/  (  \_      _      _/   \' (_| "
+    sleep 0.03
+    echo " /   /    \           /     _) (_/ "
+    sleep 0.03
+    echo " |   '',_ _'._'---'_.'_ _,.'    | \ "
+    sleep 0.03
+    echo " \    /  \ \  '''''  / / /     /   \ "
+    sleep 0.03
+    echo "  \_.'    \ \       / /  |   .' "
+    sleep 0.03
+    echo "   '--.,   \ \     / /  _;-'' "
+    sleep 0.03
+    echo "       '|   \ \   / /   | "
+    sleep 0.03
+    echo "       .;----'''''''----;. "
+    sleep 0.03
+    echo "      /(                 )\ "
+    sleep 0.03
+    echo "      \_''-------------''_/ "
+    sleep 0.03
+    echo "      | '';-----;-----;'' | "
+    sleep 0.03
+    echo "      | / : \ / : \ / : \ | "
+    sleep 0.03
+    echo "      |V.','.V.','.V.','.V| "
+    sleep 0.03
+    echo "      \'./_\.;./_\.;./_\.'/ "
+    sleep 0.03
+    echo "       ';..___________..;' "
     sleep 0.03
     echo " ============================="
     sleep 2
@@ -45,7 +80,7 @@ load(){
 get_sms=$(curl -s http://zlucifer.com/api/sms.php)
 get_call=$(curl -s http://zlucifer.com/api/call.php)
 mulai (){
-    echo "Gunakan Troll Project Lagi?"
+    echo "Gunakan Troll Project Lagi Cok?"
     echo "y/n?"
     echo
     read lagi
@@ -71,10 +106,10 @@ spam(){
             #function spam
             echo
             echo "Silahkan masukan nomor telp target"
-            echo contoh 087805798016
+            echo contoh 0812345678
             read target # masukin no telp
             echo
-            echo "Berapa sms yang mau dikirim?"
+            echo "Berapa sms yang mau dikirim? (Contoh 100)"
             read paket
             echo
             echo Apakah nomor $target "dan SMS dikirim "$paket" sudah benar?"
@@ -90,9 +125,9 @@ spam(){
                     echo "========================================"
                     target_do=$get_sms'/sms.php?nomor='$target'&paket='$paket
                     CURL_RESPONSE=`curl -s -o /dev/null -w "%{http_code}" $target_do`
-                    echo " Gunakan tools dengan bijak"
+                    echo " Gunakan tools dengan bijak Cok"
                     echo
-                    echo " Wassalamualaikum wr wb "
+                    echo " Love u always "
                     echo " -Om Bram"
                     echo "======================================="
             else
@@ -104,7 +139,7 @@ spam(){
             #function spam
             echo
             echo "Silahkan masukan nomor telp target"
-            echo contoh 087805798016
+            echo contoh 0812345678
             read target # masukin no telp
             echo
             echo "Gunakan API Grab/Toped?"
@@ -124,13 +159,13 @@ spam(){
             if [ $confirm = "y" ]; then
                   load
                   clear
-                  echo Melakukan spam call ke nomor $target
+                  echo Melakukan spam call ke nomor $target Sabar Ya Cok
                   echo
                   echo "Jangan close aplikasi sebelum spam selesai"
                   echo "========================================"
                   cek_target=`curl -s $get_call/call.php?nomor=$target"&method="$api_spam`
                   echo -e $cek_target
-                  echo " Gunakan tools dengan bijak"
+                  echo " Gunakan tools dengan bijak Cok"
                   echo
                   echo " Love u always "
                   echo " -Om Bram"
@@ -140,7 +175,7 @@ spam(){
             fi
         mulai
     elif [ $pilih = "3" ]; then
-        echo "Terimakasih sudah menggunakan Troll project By Om Bram"
+        echo "Terimakasih sudah menggunakan Troll project"
         close
     else
         clear
@@ -156,11 +191,11 @@ echo "Loading.."
 load
 clear
 troll
-echo Selamat datang kak, Siapa nick kaka?    (Contok Otang) #tulisan keluar
+echo Selamat datang kak, Siapa nick kaka? #tulisan keluar
 read nick #membaca yang ditulis
 clear
 troll
-echo Selamat datang $nick Jombo Ya":)"
+echo Selamat datang $nick Jomblo Ya ":)"
 echo
 echo "Mulai troll project?"
 echo "y/n?"
