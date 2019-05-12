@@ -1,13 +1,12 @@
 #!/bin/bash
 #///////////////////////////////////////////////////////////////////////////////
 #///////////////////////////////////////////////////////////////////////////////
-#////                       _            _  __                              ////
-#////                      | |          (_)/ _|                             ////
-#////                   ___| |_   _  ___ _| |_ ___ _ __                     ////
-#////                  |_  / | | | |/ __| |  _/ _ \ '__|                    ////
-#////                   / /| | |_| | (__| | ||  __/ |                       ////
-#////                  /___|_|\__,_|\___|_|_| \___|_|                       ////
-#////                                                                       ////
+#////             ___              ____                                     ////
+#////            / _ \ _ __ ___   | __ ) _ __ __ _ _ __ ___                 ////
+#////           | | | | '_ ` _ \  |  _ \| '__/ _` | '_ ` _ \                ////
+#////           | |_| | | | | | | | |_) | | | (_| | | | | | |               ////
+#////            \___/|_| |_| |_| |____/|_|  \__,_|_| |_| |_|               ////                
+#////                                                                       ////                                            
 #///////////////////////////////////////////////////////////////////////////////
 #///////////////////////////////////////////////////////////////////////////////
 #PERINGATAN : KESALAHAN ATAU KEJAHATAN ADALAH TANGGUNG JAWAB DARI PEMAKAI
@@ -61,7 +60,7 @@ troll(){
     sleep 0.03
     echo " ============================="
     sleep 2
-    echo " ==      Troll Project      =="
+    echo " == Troll Project By Om Bram =="
     sleep 0.7
     echo " ============================="
 }
@@ -106,7 +105,7 @@ spam(){
             #function spam
             echo
             echo "Silahkan masukan nomor telp target"
-            echo contoh 0812345678
+            echo contoh 087805798016
             read target # masukin no telp
             echo
             echo "Berapa sms yang mau dikirim?"
@@ -127,8 +126,8 @@ spam(){
                     CURL_RESPONSE=`curl -s -o /dev/null -w "%{http_code}" $target_do`
                     echo " Gunakan tools dengan bijak"
                     echo
-                    echo " Love u always "
-                    echo " -zLucifer"
+                    echo " Wassalamualaikum wr wb "
+                    echo " -Om Bram"
                     echo "======================================="
             else
                     echo "Kesalahan"
@@ -139,7 +138,7 @@ spam(){
             #function spam
             echo
             echo "Silahkan masukan nomor telp target"
-            echo contoh 0812345678
+            echo contoh 087805798016
             read target # masukin no telp
             echo
             echo "Gunakan API Grab/Toped?"
@@ -168,14 +167,14 @@ spam(){
                   echo " Gunakan tools dengan bijak"
                   echo
                   echo " Love u always "
-                  echo " -zLucifer"
+                  echo " -Om Bram"
                   echo "========================================"
             else
                   echo Kesalahan, silahkan coba lagi
             fi
         mulai
     elif [ $pilih = "3" ]; then
-        echo "Terimakasih sudah menggunakan Troll project"
+        echo "Terimakasih sudah menggunakan Troll project By Om Bram"
         close
     else
         clear
@@ -191,7 +190,7 @@ echo "Loading.."
 load
 clear
 troll
-echo Selamat datang kak, Siapa nick kaka? #tulisan keluar
+echo Selamat datang kak, Siapa nick kaka? Contok Otang #tulisan keluar
 read nick #membaca yang ditulis
 clear
 troll
